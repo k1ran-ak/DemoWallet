@@ -1,0 +1,67 @@
+PODS:
+  - CryptoSwift (1.4.3)
+  - MBProgressHUD (1.2.0)
+  - PromiseKit (6.17.0):
+    - PromiseKit/CorePromise (= 6.17.0)
+    - PromiseKit/Foundation (= 6.17.0)
+    - PromiseKit/UIKit (= 6.17.0)
+  - PromiseKit/CorePromise (6.17.0)
+  - PromiseKit/Foundation (6.17.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.17.0):
+    - PromiseKit/CorePromise
+  - Starscream (3.1.1)
+  - SwiftProtobuf (1.19.0)
+  - TrustWalletCore (2.7.6):
+    - TrustWalletCore/Core (= 2.7.6)
+  - TrustWalletCore/Core (2.7.6):
+    - TrustWalletCore/Types
+  - TrustWalletCore/Types (2.7.6):
+    - SwiftProtobuf
+  - WalletConnect (0.1.0):
+    - CryptoSwift
+    - PromiseKit
+    - Starscream
+  - WalletConnectSwift (1.6.0):
+    - CryptoSwift (~> 1.4)
+    - Starscream (~> 3.1)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - TrustWalletCore
+  - WalletConnect (from `https://github.com/trustwallet/wallet-connect-swift`, branch `master`)
+  - WalletConnectSwift
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - MBProgressHUD
+    - PromiseKit
+    - Starscream
+    - SwiftProtobuf
+    - TrustWalletCore
+    - WalletConnectSwift
+
+EXTERNAL SOURCES:
+  WalletConnect:
+    :branch: master
+    :git: https://github.com/trustwallet/wallet-connect-swift
+
+CHECKOUT OPTIONS:
+  WalletConnect:
+    :commit: 7dd95468711d202608c37ce7cdef72a9b0f65123
+    :git: https://github.com/trustwallet/wallet-connect-swift
+
+SPEC CHECKSUMS:
+  CryptoSwift: a0799ee936271bd2253a006f1e4523df21845000
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  PromiseKit: 996202d4cae72b7801b312abef4cd2f995b2978a
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftProtobuf: 6ef3f0e422ef90d6605ca20b21a94f6c1324d6b3
+  TrustWalletCore: 902b8a3255e7a8e8c2aa9929bcb8f2c902203d26
+  WalletConnect: c5be4e3ed9efbefb8480ab27e1766d4549a92709
+  WalletConnectSwift: 1fbff8f5315bd8d41596773ca1b384aa873b6824
+
+PODFILE CHECKSUM: 7fcb728ac464ba35048c7159634d36f3ca61e3ae
+
+COCOAPODS: 1.11.3
